@@ -1,0 +1,88 @@
+.signup{
+
+}
+.signup-form{
+	background-color: white;
+	box-shadow: rgb(35 68 101 / 5%) 0px 4px 16px, rgb(35 68 101 / 5%) 0px 4px 4px;
+	padding: 30px 50px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.signup-form input{
+	display: block;
+	padding: 8px 35px 8px 15px;
+	border: 1px solid rgb(234, 234, 234);
+	outline: none;
+	border-radius: 5px;
+	margin-top: 15px;
+	font-size: 18px;
+	position: relative;
+}
+.signup-form input, .error-message , .loginWidth{
+	width: 300px;
+}
+.passhow-container{
+	display: flex;
+	height: 100%;
+}
+
+.or-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 2px;
+	background-color: rgb(206, 206, 206);
+	width: 100%;
+}
+.or{
+	background-color: white;
+	padding: 0 15px;
+	color: rgb(118, 117, 117);
+}
+.password-show{
+	/* position: absolute; */
+	margin-left: -25px;
+	margin-top: 24px;
+	z-index: 2;
+	cursor: pointer;
+	height: 0px;
+}
+
+@media screen and (max-width: 440px) {
+	.signup-form input, .error-message , .loginWidth{
+		width: 270px;
+	}
+	.signup-form{
+		padding: 40px 30px;
+	}
+	
+}
+@media screen and (max-width: 380px) {
+	.signup-form input, .error-message , .loginWidth{
+		width: 250px;
+	}
+	.signup-form{
+		padding: 40px 25px;
+	}
+}
+@media screen and (max-width: 330px) {
+	.signup-form input, .error-message , .loginWidth{
+		width: 230px;
+	}
+	.signup-form{
+		padding: 30px 15px;
+	}
+}
+@media screen and (max-width: 300px) {
+	.signup-form input, .error-message , .loginWidth{
+		width: 200px;
+	}
+	.signup-form{
+		padding: 30px 10px;
+	}
+}

@@ -1,0 +1,30 @@
+.headers-navbar{
+	background-color: rgb(255, 255, 255);
+	/* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+	/* box-shadow: rgb(35 68 101 / 5%) 0px 4px 16px, rgb(35 68 101 / 5%) 0px 4px 4px; */
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+	/* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; */
+}
+
+.btn-login{
+	background-color: #E1E4E7;
+}
+.btn-login:hover{
+	background-color: hsl(252, 6%, 83%);
+}
+.btn-signup {
+	background-color: #701972;
+	color: white !important;
+}
+.btn-signup:hover{
+	background-color: #520054;
+}
+.btn:focus {
+	box-shadow: none;
+}
+
+@media screen and (max-width: 300px) {
+	.headers-img{
+		height: 40px;
+	}
+}
